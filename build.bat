@@ -2,7 +2,7 @@ set CURDIR=`pwd`
 set OLDGOPATH=%$GOPATH%
 set GOPATH=%cd%
 
-gofmt -w src/gopher
+gofmt -w src/server
 
 go install server
 
