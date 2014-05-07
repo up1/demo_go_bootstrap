@@ -16,8 +16,8 @@ $ ./bin/server
 For Windows
 
 ```
-$ git clone git://github.com/up1/demo_go_bootstrap.git
-$ cd demo_go_bootstrap
+> git clone git://github.com/up1/demo_go_bootstrap.git
+> cd demo_go_bootstrap
 > build.bat
 > bin\server.exe
 ```
