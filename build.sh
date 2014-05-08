@@ -4,7 +4,7 @@ CURDIR=`pwd`
 OLDGOPATH="$GOPATH"
 export GOPATH="$CURDIR"
 
-gofmt -w src/server
+gofmt -w src/
 
 go install server
 

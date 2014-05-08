@@ -1,0 +1,10 @@
+<h1>{{.project_name}}</h1>
+
+<div>
+	<h1>List of data</h1>
+	<ul>
+	  {{range .results}}
+	  <li>{{.TopicID}} :: {{.Name}}</li>
+	  {{end}}
+	</ul>
+</div>
